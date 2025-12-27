@@ -23,7 +23,7 @@ public class SimpleCalculator {
         System.out.print("Enter operator: ");
         char operator = sc.next().charAt(0);
 
-        double result = 0;   // ✅ initialized
+        double result = 0;   
         boolean validOperation = true;
 
         switch (operator) {
@@ -60,3 +60,4 @@ public class SimpleCalculator {
         sc.close();
     }
 }
+
